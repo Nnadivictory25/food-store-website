@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foods</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+</head>
+<body>
+
+<!-- header section starts -->
+<section class="header">
+    
+    <a href="#" class="logo"> <i class="fas fa-utensils"></i>FOOD </a>
+
+    <nav class="navbar">
+       <a href="#home">home</a>
+       <a href="#about">about</a>
+       <a href="#food">food</a>
+       <a href="#gallery">gallery</a>
+       <a href="#menu">menu</a>
+       <a href="#order">order</a>
+       <a href="#blogs">blogs</a>
+    </nav>
+
+    <div id="menu-btn" class="fas fa-align-left"></div>
+
+</section>
+
+<!-- home section  -->
+<section class="home" id="home">
+
+    <div class="swiper home-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide" style="background: url(images/home-slide-1.jpg) no-repeat" >
+                <div class="content">
+                    <span>Outstanding Food</span>
+                    <h3>Delicious Cooking</h3>
+                    <a href="#" class="btn">Get Starteed</a>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+
+            <div class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat" >
+                <div class="content">
+                    <span>Outstanding Food</span>
+                    <h3>Morning Session</h3>
+                    <a href="#" class="btn">Get Starteed</a>
+                </div>
+            </div>
+            <div class="swiper-slide slide" style="background: url(images/home-slide-3.jpg) no-repeat" >
+                <div class="content">
+                    <span>Outstanding Food</span>
+                    <h3>Aunthentic Kitchen</h3>
+                    <a href="#" class="btn">Get Starteed</a>
+                </div>
+               
+            </div>
+        </div>
+
+    </div>
+
+
+</section>
+
+<!-- About section -->
+<section class="about" id="about">
+
+    <div class="image">
+        <img src="images/about-img.png" alt="">
+    </div>
+<div class="content">
+ <h3 class="title">Welcome To Our Restaurant</h3>
+ <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quas nisi tenetur, sit doloremque autem aperiam labore accusamus a perferendis corporis qui error ab corrupti veritatis placeat. Eos, quod tenetur!</p>
+ <a href="#" class="btn">Read More</a>
+ <div class="icons-container">
+     <div class="icons">
+        <img src="images/about-icon-1.png" alt="">
+        <h3>Quality Foods</h3>
+     </div>
+     <div class="icons">
+        <img src="images/about-icon-2.png" alt="">
+        <h3>Foods & Drinks</h3>
+     </div>
+     <div class="icons">
+        <img src="images/about-icon-3.png" alt="">
+        <h3>Expert Chef</h3>
+     </div>
+ </div>
+</div>
+
+</section>
+<!-- Food section  -->
+<section class="food" id="food">
+
+    <div class="heading">  
+       <span>popular dishes</span>
+       <h3>our delicious foods</h3>
+    </div>
+ 
+    <div class="swiper food-slider">
+ 
+       <div class="swiper-wrapper">
+ 
+          <div class="swiper-slide slide" data-name="food-1">
+             <img src="images/food-img-1.png" alt="">
+             <h3>delicious food</h3>
+             <div class="price">$49.99</div>
+          </div>
+ 
+          <div class="swiper-slide slide" data-name="food-2">
+             <img src="images/food-img-2.png" alt="">
+             <h3>delicious food</h3>
+             <div class="price">$49.99</div>
+          </div>
+ 
+          <div class="swiper-slide slide" data-name="food-3">
+             <img src="images/food-img-3.png" alt="">
+             <h3>delicious food</h3>
+             <div class="price">$49.99</div>
+          </div>
+ 
+          <div class="swiper-slide slide" data-name="food-4">
+             <img src="images/food-img-4.png" alt="">
+             <h3>delicious food</h3>
+             <div class="price">$49.99</div>
+          </div>
+ 
+          <div class="swiper-slide slide" data-name="food-5">
+             <img src="images/food-img-5.png" alt="">
+             <h3>delicious food</h3>
+             <div class="price">$49.99</div>
+          </div>
+ 
+       </div>
+ 
+       <div class="swiper-pagination"></div>
+ 
+    </div>
+ 
+ </section>
+
+<!-- Food preview section  -->
+<section class="food-preview-container active">
+
+    <div id="close-preview" class="far fa-times-circle"></div>
+
+    <div class="food-preview" data-target="food-1">
+        <img src="images/food-img-1.png" alt="">
+        <h3>delicious foods</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, nihil.</p>
+        <div class="price">$49.99</div>
+        <a href="#" class="btn">buy now!</a>
+    </div>
+
+    <div class="food-preview" data-target="food-2">
+        <img src="images/food-img-2.png" alt="">
+        <h3>delicious foods</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, nihil.</p>
+        <div class="price">$49.99</div>
+        <a href="#" class="btn">buy now!</a>
+    </div>
+
+    <div class="food-preview" data-target="food-3">
+        <img src="images/food-img-3.png" alt="">
+        <h3>delicious foods</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, nihil.</p>
+        <div class="price">$49.99</div>
+        <a href="#" class="btn">buy now!</a>
+    </div>
+
+    <div class="food-preview" data-target="food-4">
+        <img src="images/food-img-4.png" alt="">
+        <h3>delicious foods</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, nihil.</p>
+        <div class="price">$49.99</div>
+        <a href="#" class="btn">buy now!</a>
+    </div>
+
+    <div class="food-preview" data-target="food-5">
+        <img src="images/food-img-5.png" alt="">
+        <h3>delicious foods</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, nihil.</p>
+        <div class="price">$49.99</div>
+        <a href="#" class="btn">buy now!</a>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- custom js file link -->
+<script src="script.js"></script>
+</body>
+</html>
